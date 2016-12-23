@@ -1,0 +1,5 @@
+package com.niit.mygiftback.config;
+
+public class AppContext {
+
+}
