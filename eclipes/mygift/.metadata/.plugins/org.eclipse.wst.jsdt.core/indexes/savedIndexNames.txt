@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+D:\mygift\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2181844069.index
+3039808782.index
+874946878.index
+1451647204.index
+3994775242.index
+3688425880.index
