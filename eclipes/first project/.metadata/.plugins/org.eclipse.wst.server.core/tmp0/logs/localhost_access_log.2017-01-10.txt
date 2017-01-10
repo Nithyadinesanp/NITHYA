@@ -1,0 +1,15 @@
+127.0.0.1 - - [10/Jan/2017:09:50:20 +0530] "GET / HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [10/Jan/2017:09:50:36 +0530] "GET /mygiftfrontend/ HTTP/1.1" 200 13213
+0:0:0:0:0:0:0:1 - - [10/Jan/2017:09:50:36 +0530] "GET /mygiftfrontend/resources/images/Td.jpg HTTP/1.1" 500 10282
+0:0:0:0:0:0:0:1 - - [10/Jan/2017:09:50:36 +0530] "GET /mygiftfrontend/resources/images/gi.jpg HTTP/1.1" 500 10282
+0:0:0:0:0:0:0:1 - - [10/Jan/2017:09:50:36 +0530] "GET /mygiftfrontend/resources/images/fo1.jpg HTTP/1.1" 500 10282
+0:0:0:0:0:0:0:1 - - [10/Jan/2017:09:50:37 +0530] "GET /mygiftfrontend/resources/images/white-background-wallpaper-004.jpg HTTP/1.1" 500 10282
+0:0:0:0:0:0:0:1 - - [10/Jan/2017:09:50:37 +0530] "GET /mygiftfrontend/resources/images/gift.mp4 HTTP/1.1" 500 10282
+0:0:0:0:0:0:0:1 - - [10/Jan/2017:09:50:38 +0530] "GET /mygiftfrontend/resources/images/gift.mp4 HTTP/1.1" 500 10282
+0:0:0:0:0:0:0:1 - - [10/Jan/2017:09:50:39 +0530] "GET /mygiftfrontend/resources/images/gift.mp4 HTTP/1.1" 500 10282
+0:0:0:0:0:0:0:1 - - [10/Jan/2017:09:50:39 +0530] "GET /mygiftfrontend/resources/images/gift.mp4 HTTP/1.1" 500 10282
+0:0:0:0:0:0:0:1 - - [10/Jan/2017:09:50:39 +0530] "GET /mygiftfrontend/resources/images/gift.mp4 HTTP/1.1" 500 10282
+0:0:0:0:0:0:0:1 - - [10/Jan/2017:09:50:39 +0530] "GET /mygiftfrontend/resources/images/gift.mp4 HTTP/1.1" 500 10282
+0:0:0:0:0:0:0:1 - - [10/Jan/2017:09:54:46 +0530] "GET /mygiftfrontend/resources/images/gift.mp4 HTTP/1.1" 500 10282
+0:0:0:0:0:0:0:1 - - [10/Jan/2017:09:54:47 +0530] "GET /mygiftfrontend/resources/images/gift.ogg HTTP/1.1" 500 10282
+0:0:0:0:0:0:0:1 - - [10/Jan/2017:09:54:49 +0530] "GET /mygiftfrontend/images HTTP/1.1" 500 10282

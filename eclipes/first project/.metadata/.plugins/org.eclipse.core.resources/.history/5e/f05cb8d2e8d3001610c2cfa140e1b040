@@ -1,0 +1,5 @@
+package com.niit.mygiftbackend.config;
+
+public class AppContext {
+
+}

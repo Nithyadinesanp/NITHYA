@@ -1,0 +1,12 @@
+127.0.0.1 - - [04/Jan/2017:14:42:18 +0530] "GET / HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [04/Jan/2017:14:42:20 +0530] "GET /mygiftfrontend/ HTTP/1.1" 200 13213
+0:0:0:0:0:0:0:1 - - [04/Jan/2017:14:42:21 +0530] "GET /mygiftfrontend/resources/images/Td.jpg HTTP/1.1" 200 26795
+0:0:0:0:0:0:0:1 - - [04/Jan/2017:14:42:21 +0530] "GET /mygiftfrontend/resources/images/gi.jpg HTTP/1.1" 200 9706
+0:0:0:0:0:0:0:1 - - [04/Jan/2017:14:42:21 +0530] "GET /mygiftfrontend/resources/images/fo1.jpg HTTP/1.1" 200 382155
+0:0:0:0:0:0:0:1 - - [04/Jan/2017:14:42:21 +0530] "GET /mygiftfrontend/resources/images/white-background-wallpaper-004.jpg HTTP/1.1" 200 160815
+0:0:0:0:0:0:0:1 - - [04/Jan/2017:14:42:21 +0530] "GET /mygiftfrontend/resources/images/gift.mp4 HTTP/1.1" 200 18096862
+0:0:0:0:0:0:0:1 - - [04/Jan/2017:14:42:21 +0530] "GET /mygiftfrontend/resources/images/gift.mp4 HTTP/1.1" 200 18096862
+0:0:0:0:0:0:0:1 - - [04/Jan/2017:14:42:21 +0530] "GET /mygiftfrontend/resources/images/bgb.jpg HTTP/1.1" 200 962289
+0:0:0:0:0:0:0:1 - - [04/Jan/2017:14:43:03 +0530] "GET /mygiftfrontend/ HTTP/1.1" 200 13213
+0:0:0:0:0:0:0:1 - - [04/Jan/2017:14:43:04 +0530] "GET /mygiftfrontend/resources/images/gift.mp4 HTTP/1.1" 206 17818334
+0:0:0:0:0:0:0:1 - - [04/Jan/2017:14:43:04 +0530] "GET /mygiftfrontend/resources/images/gift.mp4 HTTP/1.1" 200 18096862
