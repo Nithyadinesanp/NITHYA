@@ -1,4 +1,0 @@
-#Tomcat publish data
-#Tue Jan 10 09:54:19 IST 2017
-org.eclipse.jst.j2ee.server\:mygiftbackend=WEB-INF/lib/mygiftbckend-0.0.1-SNAPSHOT.jar
-org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\User\\.m2\\repository\\org\\springframework\\spring-web\\4.3.3.RELEASE\\spring-web-4.3.3.RELEASE.jar=WEB-INF/lib/spring-web-4.3.3.RELEASE.jar
