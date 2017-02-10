@@ -1,4 +1,4 @@
-# NIIT-THRISSUR
+# NITHYA NIITSTUDENT
 
 E-commerce Website
 
