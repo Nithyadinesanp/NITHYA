@@ -2,6 +2,7 @@ package com.niit.giftbackend.dao;
 
 import java.util.List;
 
+
 import com.niit.giftbackend.model.Product;
 
 public interface ProductDao {
@@ -12,11 +13,20 @@ public interface ProductDao {
 
 	void delete(Product product);
 
-	Product getById(int productId);
+	//Product getById(int productId);
 
 	List<Product> getByBrand(String brand);
 
 	List<Product> getByCategory(String category);
 
 	List<Product> list();
+	Product getById(int productId);
+
+	//Product get(String string);
+
+	
+	
+
+	
+	
 }

@@ -13,7 +13,7 @@ import com.niit.giftbackend.model.ShippingAddress;
 import com.niit.giftbackend.model.Cart;
 import com.niit.giftbackend.model.User;
 
-@Repository
+@Repository("userDao")
 @Transactional
 @EnableTransactionManagement
 public class UserDaoImpl implements UserDao {

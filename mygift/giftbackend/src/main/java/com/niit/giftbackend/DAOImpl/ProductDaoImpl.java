@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.niit.giftbackend.dao.ProductDao;
 import com.niit.giftbackend.model.Product;
 
-@Repository
+@Repository("productDao")
 @EnableTransactionManagement
 @Transactional
 public class ProductDaoImpl implements ProductDao {
