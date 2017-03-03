@@ -93,7 +93,8 @@
 
 <tr>
 <td height="197" colspan="4">
-<center><a href="error"><div class="loader"></div></a></center>
+<center><i class="fa fa-spinner fa-pulse fa-3x fa-fw" style="font-size:60px;color:SILVER;"></i>
+<span class="sr-only">Loading...</span></center>
 <td>
 </tr>
 

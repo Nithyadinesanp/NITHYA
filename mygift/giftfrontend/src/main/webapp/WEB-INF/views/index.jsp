@@ -102,15 +102,15 @@ and leave it around the house for your special someone to find!</b></em></p>
   <div class="row">
     <div class="col-sm-4"><a href="#">
      <img src="resources/images/Td.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
-	<h4><center><b>Birthday Gift<b></center></h4></a>
+	<h4><center><b><a href="<c:url value="/products"/>">Birthday Gift<b></center></h4></a>
     </div>
     <div class="col-sm-4"><a href="#">
       <img src="resources/images/gi.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
-	<h4><center><b>Aniversary Gift<b></center></h4></a>
+	<h4><center><b><a href="<c:url value="/products"/>">Aniversary Gift<b></center></h4></a>
     </div>
     <div class="col-sm-4"><a href="#">						
      <img src="resources/images/fo1.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
-	<h4><center><b>Christmast & NewYear Gifts<b></center></h4></a>
+	<h4><center><b><a href="<c:url value="/products"/>">Valentine's day Gifts<b></center></h4></a>
     </div>
 
   </div>

@@ -10,7 +10,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>Bootstrap Example</title>
+   <title>Gift</title></i>
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -164,23 +168,23 @@ body
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
- <li class="active"><a href="<c:url value="/"/>"> Home</a></li>
-        <li class="active"><a href="<c:url value="/images"/>">Images</a></li>
-        <li><a href="<c:url value="/aboutus"/>">About us</a></li>
-<li><a href="<c:url value="/contactus"/>">Contact</a></li>
-<!-- <li><a href="products">Product</a></li> -->
-<li class="dropdown"><a data-toggle="" class="dropdown-toggle"
-						href="<c:url value="/products"/>"><b>Prodect</b><b class="caret"></b></a></li>
+ <li class="active"><a href="<c:url value="/"/>"><i class="fa fa-home" aria-hidden="true"> Home</i></a></li>
+        <li class="active"><a href="<c:url value="/images"/>"><i class="fa fa-picture-o" aria-hidden="true"> Images</i></a></li>
+        <!--<li><a href="<c:url value="/aboutus"/>">About us</a></li> -->
+<li><a href="<c:url value="/contact"/>"><i class="fa fa-phone" aria-hidden="true"> Contact</i></a></li>
+
+<li><a href="<c:url value="/products"/>">
+<i class="fa fa-product-hunt" aria-hidden="true"> Products</i></a></li>
 					<sec:authorize access="hasRole('ADMIN')">
 
-						<li><a href="<c:url value="/productAdmin"/>">Admin Page</a></li>
-						<li><a href="<c:url value='/logout' />">Sign Out</a></li>
+						<li><a href="<c:url value="/productAdmin"/>"><i class="fa fa-adn" aria-hidden="true"> Admin Page</i></a></li>
+						<li><a href="<c:url value='/logout' />"><i class="fa fa-sign-out" aria-hidden="true"> Sign Out</i></a></li>
 					</sec:authorize>
 
 					<sec:authorize access="hasRole('USER')">
 
-						<li><a href="<c:url value="/cart"/>">Cart</a></li>
-						<li><a href="<c:url value='/logout' />">Sign Out</a></li>
+						<li><a href="<c:url value="/cart"/>"><i class="fa fa-cart-arrow-down" aria-hidden="true"> Cart</i></a></li>
+						<li><a href="<c:url value='/logout' />"><i class="fa fa-sign-out" aria-hidden="true"> Sign Out</i></a></li>
 					</sec:authorize>
        
       <form class="navbar-form navbar-left" role="search">
@@ -190,8 +194,8 @@ body
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="<c:url value="/register"/>">Register</a></li>
-<li><a href="<c:url value="/login"/>">Login</a></li>
+        <li><a href="<c:url value="/register"/>"><i class="fa fa-registered" aria-hidden="true"> Register</i></a></li>
+<li><a href="<c:url value="/login"/>"><i class="fa fa-sign-in" aria-hidden="true"> Login</i></a></li>
           </li>
       </ul>
     </div><!-- /.navbar-collapse -->
