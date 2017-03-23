@@ -6,6 +6,9 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.transaction.annotation.Transactional;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.niit.giftbackend.dao.CartDao;
 import com.niit.giftbackend.model.Cart;
 
@@ -14,6 +17,9 @@ import com.niit.giftbackend.model.Cart;
 @Transactional
 public class CartDaoImpl implements CartDao {
 
+	Logger log = LoggerFactory.getLogger(CartDaoImpl.class);
+
+	
 	@Autowired
 	SessionFactory sessionFactory;
 	

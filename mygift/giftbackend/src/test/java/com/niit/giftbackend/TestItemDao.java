@@ -1,6 +1,5 @@
 package com.niit.giftbackend;
 
-
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
@@ -31,7 +30,7 @@ public class TestItemDao {
 
 	public void UserTestCase() {
 		int size = itemDao.getCartItems(0).size();
-		assertEquals("supplier list test case ", 3, size);
+		assertEquals("supplier list test case ", 0, size);
 
 	}
 

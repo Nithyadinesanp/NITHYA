@@ -8,6 +8,9 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.transaction.annotation.Transactional;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.niit.giftbackend.dao.ProductDao;
 import com.niit.giftbackend.model.Product;
 
@@ -15,6 +18,8 @@ import com.niit.giftbackend.model.Product;
 @EnableTransactionManagement
 @Transactional
 public class ProductDaoImpl implements ProductDao {
+
+	Logger log = LoggerFactory.getLogger(ProductDaoImpl.class);
 
 	@Autowired
 	SessionFactory sessionFactory;

@@ -31,7 +31,7 @@ public class TestProductDao {
 
 	public void UserTestCase() {
 		int size = productDao.list().size();
-		assertEquals("product list test case ", 5, size);
+		assertEquals("product list test case ", 7 , size);
 
 	}
 
